@@ -56,6 +56,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
     background-color: var(--clr-light-gray);
+    overflow-x: hidden;
 }
 
 /* A elements that don't have a class get default styles */
@@ -133,13 +134,24 @@ select {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* gap: 0.7rem; */
+    gap: 1.5rem;
     flex-wrap: wrap;
+    margin: 0.5rem auto;
 }
 
 .box {
     border: 1px solid black;
     width: 20rem;
     height: 14rem;
-    margin: 0.5rem auto;
 }
+
+.boxes__two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    gap: 1.7rem;
+    flex-wrap: wrap;
+}
+
+@media screen {}
