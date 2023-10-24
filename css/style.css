@@ -137,12 +137,15 @@ select {
     gap: 1.5rem;
     flex-wrap: wrap;
     margin: 0.5rem auto;
+    margin-bottom: 4rem;
 }
 
 .box {
-    border: 1px solid black;
     width: 20rem;
     height: 14rem;
+    border-radius: 8px;
+    box-shadow: 0px 12px 20px -6px rgba(128, 128, 128, 0.5);
+    /* border: 1px solid black; */
 }
 
 .boxes__two {
@@ -154,13 +157,45 @@ select {
     flex-wrap: wrap;
 }
 
+.box__one{
+    border: 4px solid var(--clr-cyan);
+}
+
+.box__subbox-1 {
+    border: 4px solid var(--clr-red);
+}
+
+.box__subbox-2 {
+    border: 4px solid var(--clr-orange);
+}
+
+.box__three {
+    border: 4px solid var(--clr-blue);
+}
+
 @media screen and (max-width:1010px) {
     body {
-        background-color: red;
+        /* background-color: red; */
     }
 
     .boxes__two {
         flex-flow: inherit;
         gap: 1.5rem;
+    }
+
+    .heading {
+        margin-top: 4rem;
+    }
+
+    .heading h1,
+    .heading h2 {
+        font-size: 1.6rem;
+    }
+
+    .heading p {
+        /* padding: 0 2rem; */
+        width: 21rem;
+        font-size: 1rem;
+        margin-bottom: 3rem;
     }
 }
