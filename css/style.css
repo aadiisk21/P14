@@ -154,4 +154,13 @@ select {
     flex-wrap: wrap;
 }
 
-@media screen {}
+@media screen and (max-width:1010px) {
+    body {
+        background-color: red;
+    }
+
+    .boxes__two {
+        flex-flow: inherit;
+        gap: 1.5rem;
+    }
+}
