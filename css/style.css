@@ -163,7 +163,7 @@ select {
 
 .box p {
     width: 95%;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     color: var(--clr-grayish-blue);
     padding: 0 2rem;
     margin-top: 0.5rem;
@@ -222,7 +222,7 @@ select {
 
     .heading p {
         /* padding: 0 2rem; */
-        width: 30rem;
+        width: 35rem;
         font-size: 1rem;
         margin-bottom: 3rem;
     }
