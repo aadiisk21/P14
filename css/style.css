@@ -151,8 +151,28 @@ select {
     width: 21rem;
     height: 15rem;
     border-radius: 5px;
-    box-shadow: 0px 12px 20px -6px rgba(128, 128, 128, 0.5);
+    box-shadow: 0px 12px 20px -4px rgba(128, 128, 128, 0.2);
     /* border: 1px solid black; */
+}
+
+.box h3 {
+    color: var(--clr-dark-blue);
+    padding: 0 2rem;
+    margin-top: 1.9rem;
+}
+
+.box p {
+    width: 95%;
+    font-size: 0.9rem;
+    color: var(--clr-grayish-blue);
+    padding: 0 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1.9rem;
+}
+
+.box img {
+    width: 4rem;
+    margin-left: 15rem;
 }
 
 .boxes__two {
@@ -202,7 +222,7 @@ select {
 
     .heading p {
         /* padding: 0 2rem; */
-        width: 35rem;
+        width: 30rem;
         font-size: 1rem;
         margin-bottom: 3rem;
     }
